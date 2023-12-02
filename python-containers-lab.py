@@ -66,7 +66,18 @@ for key, val in home_town.items():
 #   }
 # Iterate over the cohort list, printing out each item (it’s not necessary to format the dictionaries).
 
+cohort = []
 
+for student_idx, student in enumerate(students):
+  cohort.append(
+    {
+      "student": student,
+      "fav_food": foods[student_idx],
+    }
+  )
+
+for student in cohort:
+  print(student)
 
 # Exercise 7
 
