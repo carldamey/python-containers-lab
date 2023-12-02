@@ -5,6 +5,7 @@
 # Print out the last student’s name.
 
 students = ["Abay", "Caitlin", "Carl", "Kylie", "Leah", "Matt", "Morgan", "Nathan", "Selam", "Skye", "William"]
+
 print(students[1])
 print(students[-1])
 
@@ -14,6 +15,7 @@ print(students[-1])
 # Use a for loop to print out the string “[food goes here] is a good food”.
 
 foods = ("Pizza", "Spaghetti", "Chicken", "Ice Cream", "Apple", "Burger", "Fries", "Eggs", "Broccoli", "Pork", "Banana")
+
 for food in foods:
   print(f"{food} is a good food.")
 
@@ -32,7 +34,13 @@ for food in foods[9:]:
 # Print a string with this format:
 # “I was born in city, state - population of population”
 
+home_town = {
+  "city": "Bellevue",
+  "state": "Washington",
+  "population": "150,000"
+}
 
+print(f"I was born in {home_town['city']}, {home_town['state']}, - population of {home_town['population']}.")
 
 # Exercise 5
 
