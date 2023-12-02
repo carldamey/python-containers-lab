@@ -23,7 +23,8 @@ for food in foods:
 
 # Hint: Use the slice operator to select the last two foods
 
-
+for food in foods[9:]:
+  print(food)
 
 # Exercise 4
 
