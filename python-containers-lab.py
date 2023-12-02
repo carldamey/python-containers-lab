@@ -85,7 +85,10 @@ for student in cohort:
 # ["Tina is awesome!", "Fred is awesome!", "Wilma is awesome!"]
 # Iterate over the awesome_students list, printing out each string.
 
+awesome_students = [student + " is awesome!" for student in students]
 
+for aweseome_student in awesome_students:
+  print(aweseome_student)
 
 # Exercise 8
 
